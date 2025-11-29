@@ -99,7 +99,7 @@ def collect_data_backend(backend):
     # Only gates data
     times_gates_data = np.c_[col_nom, data_gates]
     df_gates = pd.DataFrame(
-        data=data_add_gates, 
+        data=times_gates_data, 
         columns = ["nom","time",
                "id_error", "id_length", "rz_error", "rz_length", "sx_error", "sx_length", "rx_error", "rx_length", "measure_error", "measure_length"]
                 )
