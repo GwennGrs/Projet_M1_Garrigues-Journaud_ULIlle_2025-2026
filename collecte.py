@@ -99,10 +99,9 @@ def collect_data_backend(backend):
     # Only gates data
     times_gates_data = np.c_[col_nom, data_gates]
     df_gates = pd.DataFrame(
-        data=times_gates_data, 
+        data=data_add_gates, 
         columns = ["nom","time",
-               "id_error", "id_length", "rz_error", "rz_length", "sx_error", "sx_length", "rx_error", "rx_length", "measure_error", "measure_length"
-                ]
+               "id_error", "id_length", "rz_error", "rz_length", "sx_error", "sx_length", "rx_error", "rx_length", "measure_error", "measure_length"]
                 )
 
     return df_tot, df_qub, df_gates
@@ -125,19 +124,19 @@ def full_collect(service):
 
 # 3 fonctions de créations de csv
 def create_csv_complet(data):
-    folder = "data_json/"
+    folder = "/home/gwenn/Desktop/Projet/data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     name_file = folder+"ibm_backends_complet_"+ date + ".json"
     return data.to_json(name_file, index=False)
 
 def create_csv_qubit(data):
-    folder = "data_json/"
+    folder = "/home/gwenn/Desktop/Projet/data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     name_file = folder+"ibm_backends_qubit_"+ date + ".json"
     return data.to_json(name_file, index=False)
 
 def create_csv_gates(data):
-    folder = "data_json/"
+    folder = "/home/gwenn/Desktop/Projet/data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     name_file = folder+"ibm_backends_gates_"+ date + ".json"
     return data.to_json(name_file, index=False)
