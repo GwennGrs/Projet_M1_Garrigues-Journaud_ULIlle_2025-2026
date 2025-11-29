@@ -37,7 +37,7 @@ jobs:
         # Assurez-vous que le chemin vers votre script et la structure des dossiers sont corrects
         run: |
           # Remplacez 'votre_script.py' par le nom réel de votre fichier
-          python votre_script.py 
+          python merge_json.py 
           
       - name: 5. Configure Git
         # Configure l'utilisateur Git pour le commit
