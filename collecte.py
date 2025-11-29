@@ -125,19 +125,19 @@ def full_collect(service):
 
 # 3 fonctions de créations de csv
 def create_csv_complet(data):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+    folder = "data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     name_file = folder+"ibm_backends_complet_"+ date + ".json"
     return data.to_json(name_file, index=False)
 
 def create_csv_qubit(data):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+    folder = "data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     name_file = folder+"ibm_backends_qubit_"+ date + ".json"
     return data.to_json(name_file, index=False)
 
 def create_csv_gates(data):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+    folder = "data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     name_file = folder+"ibm_backends_gates_"+ date + ".json"
     return data.to_json(name_file, index=False)

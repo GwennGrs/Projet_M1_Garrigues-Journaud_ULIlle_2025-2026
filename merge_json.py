@@ -7,7 +7,7 @@ import pandas as pd
 
 #insert : {complet, gates or qubit}
 def combineJson(prefixe_name):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+    folder = "data_json/"
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H")
     elements = os.listdir(folder)
     files = []
@@ -19,7 +19,7 @@ def combineJson(prefixe_name):
             files.append(file)
     
     merged_file = pd.concat(files, ignore_index=True)
-    output_folder = "/home/gwenn/Desktop/Projet/data_hour/"
+    output_folder = "data_hour/"
     name_file = output_folder+"ibm_backend_" + prefixe_name + "_hourly_total_" + date +".json"
     return merged_file.to_json(name_file, index=False)
 
