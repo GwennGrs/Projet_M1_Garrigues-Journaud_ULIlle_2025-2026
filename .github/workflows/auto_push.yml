@@ -1,0 +1,30 @@
+name: Automated Hourly Commit and Push
+
+on:
+  schedule:
+    - cron: '0 * * * *' 
+  workflow_dispatch: 
+
+jobs:
+  auto_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Create or Update Timestamp File and Push
+        run: |
+          echo "Last automated run: $(date)" > last_hourly_run.txt
+          
+          git add .
+          
+          git commit -m "Hourly commit, saving data"
+
+          git push
