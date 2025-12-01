@@ -13421,3 +13421,107 @@ To github.com:GwennGrs/ResearchProject.git
 --- TÂCHE TERMINÉE ------------------
 Launch date --- Mon Dec  1 05:02:01 PM CET 2025 ---
 1. Adding files to the remote git repository...
+3. Commit des changements: Automated data update: 2025-12-01 17:02:01
+[main 02ff9545] Automated data update: 2025-12-01 17:02:01
+ 96 files changed, 418 insertions(+)
+ create mode 100644 data_hour/ibm_backend_complet_hourly_total_2025-12-01_17.json
+ create mode 100644 data_hour/ibm_backend_gates_hourly_total_2025-12-01_17.json
+ create mode 100644 data_hour/ibm_backend_qubit_hourly_total_2025-12-01_17.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:02:15.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:03:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:04:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:05:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:06:09.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:07:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:08:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:09:09.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:10:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:11:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:12:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:13:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:44:46.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:45:09.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:46:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:47:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:48:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:49:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:50:13.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:51:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:52:12.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:53:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:54:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:55:09.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:56:09.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:57:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:58:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_16:59:10.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_17:00:11.json
+ create mode 100644 data_json/ibm_backends_complet_2025-12-01_17:01:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:02:15.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:03:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:04:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:05:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:06:09.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:07:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:08:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:09:09.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:10:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:11:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:12:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:13:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:44:46.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:45:09.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:46:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:47:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:48:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:49:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:50:13.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:51:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:52:12.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:53:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:54:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:55:09.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:56:09.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:57:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:58:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_16:59:10.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_17:00:11.json
+ create mode 100644 data_json/ibm_backends_gates_2025-12-01_17:01:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:02:15.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:03:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:04:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:05:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:06:09.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:07:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:08:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:09:09.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:10:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:11:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:12:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:13:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:44:46.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:45:09.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:46:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:47:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:48:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:49:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:50:13.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:51:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:52:12.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:53:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:54:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:55:09.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:56:09.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:57:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:58:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_16:59:10.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_17:00:11.json
+ create mode 100644 data_json/ibm_backends_qubit_2025-12-01_17:01:10.json
+4. Push vers origin/main...
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:GwennGrs/Projet_M1_Garrigues-Journaud_ULIlle_2025-2026.git        
+To github.com:GwennGrs/ResearchProject.git
+   2ff1581f..02ff9545  main -> main
+--- TÂCHE TERMINÉE ------------------
+Launch date --- Mon Dec  1 06:02:01 PM CET 2025 ---
+1. Adding files to the remote git repository...
