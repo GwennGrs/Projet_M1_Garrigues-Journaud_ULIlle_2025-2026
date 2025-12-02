@@ -14483,3 +14483,14 @@ To github.com:GwennGrs/ResearchProject.git
 --- TÂCHE TERMINÉE ------------------
 Launch date --- Tue Dec  2 08:02:01 AM CET 2025 ---
 1. Adding files to the remote git repository...
+3. Commit des changements: Automated data update: 2025-12-02 08:02:01
+[main 4040d1e2] Automated data update: 2025-12-02 08:02:01
+ 3 files changed, 1219 insertions(+)
+4. Push vers origin/main...
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:GwennGrs/Projet_M1_Garrigues-Journaud_ULIlle_2025-2026.git        
+To github.com:GwennGrs/ResearchProject.git
+   5f33d5b2..4040d1e2  main -> main
+--- TÂCHE TERMINÉE ------------------
+Launch date --- Tue Dec  2 09:02:01 AM CET 2025 ---
+1. Adding files to the remote git repository...
