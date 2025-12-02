@@ -21273,3 +21273,88 @@ Traceback (most recent call last):
     raise IBMInputValueError(
 qiskit_ibm_runtime.exceptions.IBMInputValueError: 'The instance specified (open-instance) is not a valid instance name.'
 Launch date --- Tue Dec  2 01:02:01 PM CET 2025 ---
+Traceback (most recent call last):
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 145, in <module>
+    service = connect()
+              ^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 19, in connect
+    service = QiskitRuntimeService()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 196, in __init__
+    self._account = self._discover_account(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 441, in _discover_account
+    account.instance = self._get_crn_from_instance_name(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 463, in _get_crn_from_instance_name
+    raise IBMInputValueError(
+qiskit_ibm_runtime.exceptions.IBMInputValueError: 'The instance specified (open-instance) is not a valid instance name.'
+Launch date --- Tue Dec  2 01:03:01 PM CET 2025 ---
+Traceback (most recent call last):
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 145, in <module>
+    service = connect()
+              ^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 19, in connect
+    service = QiskitRuntimeService()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 196, in __init__
+    self._account = self._discover_account(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 441, in _discover_account
+    account.instance = self._get_crn_from_instance_name(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 463, in _get_crn_from_instance_name
+    raise IBMInputValueError(
+qiskit_ibm_runtime.exceptions.IBMInputValueError: 'The instance specified (open-instance) is not a valid instance name.'
+Launch date --- Tue Dec  2 01:04:02 PM CET 2025 ---
+Traceback (most recent call last):
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 145, in <module>
+    service = connect()
+              ^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 19, in connect
+    service = QiskitRuntimeService()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 196, in __init__
+    self._account = self._discover_account(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 441, in _discover_account
+    account.instance = self._get_crn_from_instance_name(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 463, in _get_crn_from_instance_name
+    raise IBMInputValueError(
+qiskit_ibm_runtime.exceptions.IBMInputValueError: 'The instance specified (open-instance) is not a valid instance name.'
+Launch date --- Tue Dec  2 01:05:01 PM CET 2025 ---
+Traceback (most recent call last):
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 145, in <module>
+    service = connect()
+              ^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 19, in connect
+    service = QiskitRuntimeService()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 196, in __init__
+    self._account = self._discover_account(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 441, in _discover_account
+    account.instance = self._get_crn_from_instance_name(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 463, in _get_crn_from_instance_name
+    raise IBMInputValueError(
+qiskit_ibm_runtime.exceptions.IBMInputValueError: 'The instance specified (open-instance) is not a valid instance name.'
+Launch date --- Tue Dec  2 01:06:01 PM CET 2025 ---
+Traceback (most recent call last):
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 145, in <module>
+    service = connect()
+              ^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/collecte.py", line 19, in connect
+    service = QiskitRuntimeService()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 196, in __init__
+    self._account = self._discover_account(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 441, in _discover_account
+    account.instance = self._get_crn_from_instance_name(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/qiskit_ibm_runtime/qiskit_runtime_service.py", line 463, in _get_crn_from_instance_name
+    raise IBMInputValueError(
+qiskit_ibm_runtime.exceptions.IBMInputValueError: 'The instance specified (open-instance) is not a valid instance name.'
+Launch date --- Tue Dec  2 04:02:13 PM CET 2025 ---
