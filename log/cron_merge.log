@@ -536,3 +536,20 @@ Traceback (most recent call last):
   File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
     raise ValueError("No objects to concatenate")
 ValueError: No objects to concatenate
+Launch date --- Tue Dec  2 07:01:01 PM CET 2025 ---
+1764694861.9780095
+Traceback (most recent call last):
+  File "/home/gwenn/Desktop/Projet/merge_json.py", line 34, in <module>
+    combineJson("qubit")
+  File "/home/gwenn/Desktop/Projet/merge_json.py", line 27, in combineJson
+    merged_file = pd.concat(files, ignore_index=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+         ^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gwenn/Desktop/Projet/research-project/lib/python3.12/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
